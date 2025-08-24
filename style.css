@@ -1,0 +1,51 @@
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  border: blue, solid, 10px;
+  width: 50%;
+  border-radius: 15px;
+  text-align: center;
+}
+.row_1,
+.row_2 {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.translate,
+.rotate,
+.scale,
+.skew {
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  display: flex;
+}
+
+/*translate animation*/
+.translate:hover img {
+  transform: translate(15px, 0);
+}
+
+/*rotate animation*/
+.rotate:hover img {
+  transform: rotate(45deg);
+}
+
+/*scale animation*/
+.scale:hover img {
+  transform: scale(1.5);
+}
+
+/*skew animation*/
+.skew:hover img {
+  transform: skew(50deg, 0);
+}
