@@ -30,7 +30,7 @@ img {
   display: flex;
 }
 
-/*translate animation*/
+/*applys animation to arrow*/
 .translate:hover img {
   transform: translate(15px, 0);
 }
@@ -40,7 +40,7 @@ img {
   transition: transform 0.2s ease-out;
 }
 
-/*rotate animation*/
+/*applys animation to hamer*/
 .rotate:hover img {
   transform: rotate(45deg);
 }
@@ -50,7 +50,7 @@ img {
   transition: transform 0.2s ease-out;
 }
 
-/*scale animation*/
+/*applys animation to heart*/
 .scale:hover img {
   transform: scale(1.5);
 }
@@ -58,11 +58,11 @@ img {
 .scale:hover img {
   transition: transform 0.2s ease-out;
 }
-/*skew animation*/
+/*applys animation to block*/
 .skew:hover img {
   transform: skew(50deg, 0);
 }
-/*applys smooth animation to skew*/
+/*applys smooth animation to block*/
 .skew:hover img {
   transition: transform 0.2s ease-out;
 }
